@@ -15,6 +15,6 @@ def test_zero():
 def test_neg():
   num_list = [-3,0,6]
   obs = mean(num_list)
-  exp = 2
+  exp = 1
   assert obs == exp
 
